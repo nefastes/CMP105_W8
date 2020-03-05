@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include "Framework/Input.h"
 #include "Ball.h"
+#include "Goomba.h"
 #include <string>
 #include <iostream>
 
@@ -29,4 +30,9 @@ private:
 	Ball ball1;
 	Ball ball2;
 	sf::Texture ballTex;
+
+	Goomba goomba1;
+	Goomba goomba2;
+	sf::Texture goombaTex;
+	sf::Texture mushTex;
 };
