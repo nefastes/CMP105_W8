@@ -45,6 +45,9 @@
     <ClCompile Include="Goomba.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PongBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="README.txt">
@@ -77,6 +80,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Goomba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PongBar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

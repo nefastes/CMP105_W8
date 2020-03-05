@@ -10,7 +10,7 @@ public:
 	Goomba();
 	~Goomba();
 	void update(float dt) override;
-	void collisionResponse(GameObject* collider);
+	void collisionResponse(GameObject* collider) override;
 	void setWindow(sf::RenderWindow* hwnd) { window = hwnd; };
 };
 

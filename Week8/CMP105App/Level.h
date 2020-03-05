@@ -4,8 +4,11 @@
 #include "Framework/Input.h"
 #include "Ball.h"
 #include "Goomba.h"
+#include "PongBar.h"
 #include <string>
 #include <iostream>
+#include <stdlib.h>
+#include <time.h>
 
 
 class Level{
@@ -35,4 +38,12 @@ private:
 	Goomba goomba2;
 	sf::Texture goombaTex;
 	sf::Texture mushTex;
+
+	PongBar bar1;
+	PongBar bar2;
+	Ball pongBall;
+
+	//Rng
+	int rng;
+	int rngSpeedY;
 };
